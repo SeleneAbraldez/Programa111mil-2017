@@ -1,0 +1,119 @@
+NOTEBOOKS
+
+1) 	a-
+public class Cliente {
+    private List<Orden> ordenes;
+    private String nombre;
+    private int dni;
+	
+    public Cliente (String nombre, int dni) {
+		this.nombre=nombre;
+        this.dni=dni;
+		ordenes=new ArrayList<>();
+	}
+  
+	public void addOrden(Orden o){
+		ordenes.add(o);
+	}
+  
+	public String getNombre(){
+		return nombre;
+	}
+ 
+	public int getDni(){
+		return dni;
+	}
+}  
+	b-
+ 
+public class Orden {
+    private List<DetalleOrden> items;
+    private int id;
+    private Date creación;
+    private Date envio;
+public Orden(int id, Date creación){
+	this.id=id;
+	this.creacion=creacion;
+	items=new ArrayList<>();
+ }
+public int GetNroItem(){
+	return items.size();
+ }
+public void agregarItem(DetalleOrden detalle){
+	items.add(detalle);
+ }
+ public void setEnvio (Date envio) {
+	this.envio=envio;
+ }
+}
+
+ 		c)
+
+public class DetalleOrden {
+private Notebook item;
+private float precioUnitario;
+private int cantidad;
+public DetalleOrden (Notebook item, float precioUnitario, int cantidad) {
+	this.item = item;
+	this.precioUnitario = precioUnitario;
+	this.cantidad=cantidad;
+ }
+public float getPrecioUnitario(){
+return precioUnitario;
+}
+public int getCantidad(){
+return cantidad ;
+}
+public Noebook GetItem(){
+	return item;
+ 	}
+}
+
+EJ 2-
+
+
+package evalucuion01;
+import java.util.Scanner;
+
+public class Orden1 {
+    
+        private int notebookAbble;
+        private int notebookMamung;
+        private int precioAbble = 20000;
+        private int precioMam = 10000;
+        private int total;
+    
+
+     public int CalcularTotalOrden( ){
+        System.out.println("Ingrese la cantidad de Notebooks Abble que desea : ");
+        Scanner teclado = new Scanner(System.in);
+        this.notebookAbble = teclado.nextInt();
+        
+        System.out.println("Ingrese la cantidad de Notebooks Mmmung que desea : ");
+        notebookMamung = teclado.nextInt();
+         total = (notebookAbble * precioAbble + notebookMamung * precioMam) ;
+        
+         return total;
+     }
+        public static void main(String[] args) {
+            
+        Orden1 orden = new Orden1();
+       // orden.CalcularTotalOrden;
+        System.out.println("El precio total es: " + orden.CalcularTotalOrden());
+    }
+}
+
+
+EJ 3- 
+
+D
+
+EJ 4- 
+
+F-V-F-V-F-F-V
+
+EJ 5-
+
+SELECT Cliente.Apellido, Oden.idOrden, Orden.cliente_dni
+FROM Cliente INNER JOIN Orden
+WHERE Cliente_apellido LIKE ´%Rodriguez%´;

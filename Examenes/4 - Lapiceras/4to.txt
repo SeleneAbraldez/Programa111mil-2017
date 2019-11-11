@@ -1,0 +1,75 @@
+				AAAAAAAAAHH
+1) a-
+Public class PaqueteLapiceras{
+	private String destinatario;
+	private String destino;
+	private int CodPaquetedeLapiceras;
+	private float costoEnvio;
+	private boolean enTransito;
+	
+	public PaqueteLapiceras(int codPaquete int, String destinatario, String destino, float costoEnvio){
+	this.codPaquete=codPaquete;
+	this.destinatario=destinatario;
+	this.destino=destino;
+	this.costoEnvio=costoEnvio;
+	this.enTransito=True;
+	
+	}
+	
+b-	
+	
+	public void setCodPaquete(int cod){
+		this.codPaquete=cod;
+	}
+	public int getCodPaquete(){
+		return codPaquete;
+	}
+	
+	public setEnTransito(boolean enTransito){
+		this.enTransito=enTransito;
+	}
+	public boolean getEnransito(){
+		return enTransito;
+	}
+	
+	public void setDestinario(String destinatario){
+		this.destinatario=destinatario;
+	}
+	
+}
+
+c-
+ 
+ public void agregarPaquete(PaqueteLapiceras paqueteNuevo){
+		this.agregarPaquete=paqueteNuevo;
+ }
+
+2)
+
+Public class GestorDePaquetesDeLapiceras{
+	private int codPaq;
+
+	public GestorDePaquetesDeLapiceras(int codPaq){
+		this.codPaq=codPaq;
+	}
+	
+	public buscarPaqueteDeLapiceras(int codPaq){
+		if (codPaq : contains (codPaq)){
+			return codPaq;
+		}else 
+			return null;
+	}
+}
+
+
+
+ 
+3)B
+
+4)F-V-F-F-V-V-F
+
+5) 
+
+SELECT GestorDePaquetesDeLapiceras.nombreEM, PaqueteLapiceras.destino, PaqueteLapiceras.costoEnvio, 
+FROM PaqueteLapiceras INNER JOIN GestorDePaquetesDeLapiceras 
+WHERE PaqueteLapiceras.destino LIKE '%Tucuman%' AND PaqueteLapiceras.costoEnvio>300

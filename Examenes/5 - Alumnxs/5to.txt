@@ -1,0 +1,89 @@
+		MARTA
+1) a-
+ 
+public class Curso {
+	private List<Inscripcion> insripciones;
+	private String nombreCurso;
+	private int cupo;
+	private float notaAprobacion;
+	
+	public Curso (float nota, int cupo, String nombre){
+		this.insripciones=new ArrayList<Inscripcion>();
+		this.notaAprobacion=nota;
+		this.cupo=cupo;
+		this.nombreCurso=nombre;
+	}
+	
+	public void setNombreCurso(String in){
+		this.nombreCurso=in;
+	}
+	public String getNombreCurso(){
+		return in;
+	}
+	public float getNotaprobacion(){
+		return nota;
+	}	
+}
+
+	b-
+public class Alumno{
+	private int dni;
+	private String nombre;
+	private String apellido;
+	private int edad;
+	
+	public Alumno(int dni, String nombre, String apellido, int edad){
+		this.dni=dni;
+		this.nombre=nombre;
+		this.apellido=apellido;
+		this.edad=edad;
+	}
+	public boolean equals(Object o){
+		if( object == o){
+		return true;
+		} else
+		return false;
+	}
+}
+
+	c-
+public class Inscripcion{
+	private Curso curso;
+	private Alumno alumno;
+	private float nota;
+	
+	public Inscripcion(){}
+	
+	public void setAlumno(Alumno a){
+		this.alumno=a;
+	}
+	public void setCurso(Curso curso){
+		this.curso=curso;
+	}
+	public void setNota(float n){
+		this.nota=n;
+	}
+	public float getNota(){
+		return n;
+	}
+}
+
+2)
+
+
+
+
+3) D
+
+4) F-V-F-V-F-F-F
+
+5)
+SELECT alumno.dni, alumno.nombre, alumno.apellido, alumno.edad, inscripcion.nota
+FROM alumno INNER JOIN inscripcion ON(alumno.dni=inscripcion.alumno_dni)
+WHERE Inscripcion.nota>=7 
+ORDER BY Alumno.apellido ASC;
+
+
+
+
+

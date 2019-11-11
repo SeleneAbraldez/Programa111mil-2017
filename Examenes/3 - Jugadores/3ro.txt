@@ -1,0 +1,117 @@
+FUTBOL
+1) a- 
+public class Reserva {
+	private Date fechaReserva;
+	private Equipo equipo1, equipo2;
+	
+	public Reserva (Date fecha, Equipo equipo1, Equipo equipo2){
+		this.fechaReserva=dReserva;
+		this.equipo1=dEquipo1;
+		this.equipo2=dEquipo2;
+	}
+	
+	public void setFechaReserva(Date fecha){
+		this.fechaReserva=fecha;
+	}
+	
+	public void setEquipo1(Equipo e1){
+		this.equipo1=e1;
+	}
+	public Equipo getEquipo1(){
+		return equipo1;
+	}
+	
+	public void setEquipo2(Equipo e2){
+		this.equipo2=e2;
+	}
+	public Equipo getEquipo2(){
+		return equipo2;
+	}
+	
+	b-
+public class Equipo {
+	private String nombre;
+	private int max_jugadores;
+	private List<String> jugadores;
+}
+
+	c-
+	public Equipo (String nombre, int jugadores){
+		this.nombre=name;
+		this.max_jugadores=jugadores;
+	}
+	public void addJugador(String jugador){
+		if (jugadores>max_jugadores) this.jugador.add(jugador);
+	}
+	
+
+	public void setNombre(String nombre){
+		this.nombre=nombre;
+	}
+	public String getNombre(){
+		return nombre;
+	}
+	
+	public void setMaxJugadores(int max_jugadores){
+		this.max_jugadores=max_jugadores;
+	}
+	public int getMaxJugadores(){
+		return max_jugadores;
+	}
+
+2)
+
+	public void addJugador(String jugador){
+		if (jugadores>max_jugadores){
+		System.out.println("Numero de jugadores maxima alcanzada")
+		} else
+		this.jugador.add(jugador);
+	}
+	
+	public static void main (String[] args{
+	Equipo equipo =new Equipo();
+	equipo.
+
+
+3) 
+public boolean realizarReserva(Date fecha, Cancha cancha, Equipo e1, Equipo e2) {
+	if (!hayJugadoresRepetidos(e1, e2)){
+		Reserva nueva = new Reserva();
+		nueva.setFechaReserva(fecha);
+		nueva.setEquipo1(e1);
+		nueva.setEquipo2(e2);
+		cancha.addReserva(nueva);
+		this.addCancha(cancha);
+		return true;
+	} else 
+		return false;
+}
+
+private boolean hayJugadoresRepetidos(Equipo e1, Equipo e2){
+	for (String jugador : ei.jugadores) {
+		if (e2.contains(jugador) {
+			return true;
+	}
+}
+return false;
+
+}
+
+4)F-V-F-F-V-V-F
+
+5) 
+SELECT reserva.idReserva, cancha.ciudad, cancha.idcancha
+FROM  Cancha INNER JOIN Reserva
+ORDER BY Cancha.ciudad DESC;
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

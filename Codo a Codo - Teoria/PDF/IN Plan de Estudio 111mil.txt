@@ -1,0 +1,51 @@
+Argentina.gob.ar
+Presidencia de la Nación
+
+Inicio Ministerio de Producción
+Plan 111mil
+Plan de estudio
+
+El plan de estudios está dividido en cuatro módulos y tiene una duración de dos cuatrimestres. Podés comenzar a principio o a mitad de año.
+Módulo 1: Técnicas de programación
+
+El objetivo de este módulo es que cada alumno desarrolle competencias y habilidades para resolver problemas e implementar soluciones en un lenguaje de programación, logrando un código legible y mantenible.
+
+Busca fortalecer las siguientes capacidades profesionales:
+
+Comprensión de un problema a resolver en su contexto.
+Determinación del alcance del problema y convalidación de su interpretación con el fin de identificar los aspectos faltantes.
+Interpretación de las especificaciones de diseño y requisitos de las asignaciones a programar.
+Desarrollo de algoritmos que den soluciones a los problemas asignados o derivados de los mismos.
+Módulo 2: Desarrollo de Software
+
+El desarrollo de software es una actividad social, que se desarrolla principalmente en equipo. Por eso, este módulo integra conocimientos vinculados a la gestión y soporte de proyectos de desarrollo de software en un contexto de gestión ágil, donde se aprende a manejar el entorno personal y laboral.
+
+Se abordan conceptos sobre la ingeniería de software y sus disciplinas constitutivas; y se profundiza sobre actividades vinculadas con la calidad del software en las etapas de construcción, revisiones técnicas o control de calidad como el testing.
+
+Busca desarrollar las siguientes capacidades profesionales:
+
+Integración a un equipo en el contexto de un proyecto de desarrollo de software.
+Dimensionamiento de su trabajo en el contexto de un proyecto de desarrollo de software, considerando la utilización de recursos disponibles. Por ejemplo, utilización de bibliotecas de componentes, aplicación de patrones, entre otros.
+Módulo 3: Programación orientada a objetos.
+
+Este módulo tiene tres bloques temáticos:
+
+El bloque de Fundamentos de la programación orientada a objetos introduce conceptos básicos como abstracción, encapsulamiento, modularización, jerarquía de clases y jerarquía de partes, polimorfismo y relaciones entre clases. Permite desarrollar otras capacidades como:
+
+Comprensión de las necesidades de un cliente observando reglas del lenguaje de POO.
+Comunicación en un lenguaje preciso y adecuado con los integrantes del equipo de proyecto.
+El bloque Metodología de desarrollo aborda las técnicas de resolución de problemas informáticos bajo la óptica del paradigma orientado a objetos utilizando un proceso de desarrollo y un lenguaje de modelado unificado.
+
+El bloque Lenguaje de POO tiene como núcleo central la elaboración y la construcción de aplicaciones, implementando los conceptos de programación orientada a objetos y la resolución de situaciones problemáticas en un lenguaje de programación para un entorno de desarrollo corporativo o abierto.
+
+Módulo 4: Base de datos
+
+Este módulo se orienta a la construcción de conceptos y al desarrollo de las técnicas de manejo, creación de consulta y manipulación de bases de datos.
+
+Este módulo se organiza en dos bloques:
+
+Organización lógica de datos aborda la estructura y organización de los datos, el reconocimiento de los componentes de una base de datos, la vinculación y optimización de los datos para, posteriormente, manipularlos.
+
+Manipulación de datos se focaliza en el acceso, organización y almacenamiento de los datos mediante un lenguaje o sistema de gestión libre o propio.
+
+El curso incluye un período de práctica que ayuda a familiarizarse con el ambiente laboral en empresas o centros de alta tecnología para afianzar los conocimientos adquiridos. Las prácticas profesionales son organizadas, implementadas, supervisadas pedagógicamente y evaluadas por el centro de formación profesional donde se dicte el curso y certificadas en conjunto con el Ministerio de Educación.
