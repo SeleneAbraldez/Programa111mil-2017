@@ -1,2 +1,2 @@
-# Programa111mil-2017
-Programa Codo a Codo - Cursada 2017 (Java)
+# Programa 111mil
+Cursada de 2017 de Codo a Codo
